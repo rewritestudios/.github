@@ -12,12 +12,11 @@ Made for devs who want **reliability, excellent DX and total control** over SMS 
 </div>
 
 ```ts
-import { Rewrite } from 'rewritejs'
+import { Rewrite } from 'rewritejs';
 
-const client = new Rewrite(process.env.REWRITE_API_KEY)
+const client = new Rewrite(process.env.REWRITE_API_KEY);
 
-await client.messages.send({
-    from: 'Rewrite',
+const { data, error } = await client.messages.send({
     to: '+5511999999999',
     content: 'You verification code is 482931',
 });
