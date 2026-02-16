@@ -26,25 +26,6 @@ const { data, error } = await client.messages.send({
 
 Just like that, the **Rewrite** way of being.
 
-## Don't get stuck with a single provider
-
-**Rewrite** isn't just a gateway — it's an **abstraction layer**.
-
-You can use Rewrite with **multiple SMS providers**, switching or combining depending on price, delivery or region
-
-</div>
-
-- Twilio
-- Zenvia
-- Direct SMPP
-- Other supported providers
-
-<div align="center">
-
-All using **the same API**, the same webhooks and the same **DX**.
-
-Switch providers without rewriting your code.
-
 ## Join the SMS revolution
 
 **Rewrite** was born open source because we believe that critical infrastructure **should not be a black box.**
