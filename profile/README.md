@@ -3,7 +3,7 @@
 # Rewrite
 
 **SMS the way it should be** — simple, predictable and absurdly cheap.
-Send transactional SMS and OTPs with **flat rate of U$0.01 per message**, no contracts, no surprises and no paperwork.
+Send transactional SMS and OTPs with **flat rate of ~$0.04 USD per SMS**, no contracts, no surprises and no paperwork.
 
 Made for devs who want **reliability, excellent DX and total control** over SMS sending.
 
@@ -12,13 +12,13 @@ Made for devs who want **reliability, excellent DX and total control** over SMS 
 </div>
 
 ```ts
-import { Rewrite } from 'rewritejs';
+import { Rewrite } from '@rewritejs/sdk';
 
 const client = new Rewrite(process.env.REWRITE_API_KEY);
 
 const { data, error } = await client.messages.send({
     to: '+5511999999999',
-    content: 'You verification code is 482931',
+    message: 'You verification code is 482931',
 });
 ```
 
