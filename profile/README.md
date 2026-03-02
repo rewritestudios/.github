@@ -7,6 +7,8 @@ Send transactional SMS and OTPs with **flat rate of ~$0.04 USD per SMS**, no con
 
 Made for devs who want **reliability, excellent DX and total control** over SMS sending.
 
+<img src="https://cdn.rewritetoday.com/assets/banner.png" width="100%" alt="Rewrite"/>
+
 ## Integrate in a few lines
 
 </div>
