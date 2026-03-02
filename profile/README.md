@@ -9,24 +9,24 @@ Made for devs who want **reliability, excellent DX and total control** over SMS 
 
 <img src="https://cdn.rewritetoday.com/assets/banner.png" width="100%" alt="Rewrite"/>
 
-## Integrate in a few lines
+## Launch SMS from your stack
+
+Type-safe SDKs for the languages your team already ships with.
 
 </div>
 
 ```ts
-import { Rewrite } from '@rewritejs/sdk';
+import { Rewrite } from '@rewritejs/sdk'
 
-const client = new Rewrite(process.env.REWRITE_API_KEY);
+const client = new Rewrite(process.env.REWRITE_API_KEY)
 
 const { data, error } = await client.messages.send({
     to: '+5511999999999',
     message: 'You verification code is 482931',
-});
+})
 ```
 
 <div align="center">
-
-Just like that, the **Rewrite** way of being.
 
 ## Join the SMS revolution
 
@@ -34,6 +34,7 @@ Just like that, the **Rewrite** way of being.
 
 Contribute, discuss ideas, and help build the future of simple, affordable SMS messaging.
 
-**Rewrite** — SMS the way it should be.
+Made with 🤍 by the Rewrite team. <br/>
+SMS the way it should be.
 
 </div>
