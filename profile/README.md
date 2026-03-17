@@ -1,9 +1,9 @@
 <div align="center">
 
-# Rewrite
+# Rewrite, Today
 
 **SMS the way it should be** — simple, predictable and absurdly cheap.
-Send transactional SMS and OTPs with **flat rate of ~$0.04 USD per SMS**, no contracts, no surprises and no paperwork.
+Send *SMS* and *OTPs* with **very low price per segment**, no contracts, no surprises and no bureaucracy.
 
 Made for devs who want **reliability, excellent DX and total control** over SMS sending.
 
@@ -16,14 +16,14 @@ Type-safe SDKs for the languages your team already ships with.
 </div>
 
 ```ts
-import { Rewrite } from '@rewritejs/sdk'
+import { Rewrite } from '@rewritejs/sdk';
 
-const client = new Rewrite(process.env.REWRITE_API_KEY)
+const client = new Rewrite(process.env.REWRITE_API_KEY);
 
 const { data, error } = await client.messages.send({
     to: '+5511999999999',
     message: 'You verification code is 482931',
-})
+});
 ```
 
 <div align="center">
