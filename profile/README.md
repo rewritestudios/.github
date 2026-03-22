@@ -22,7 +22,7 @@ const client = new Rewrite(process.env.REWRITE_API_KEY);
 
 const { data, error } = await client.messages.send({
     to: '+5511999999999',
-    message: 'You verification code is 482931',
+    content: 'You verification code is 123456',
 });
 ```
 
