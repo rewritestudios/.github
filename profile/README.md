@@ -22,7 +22,7 @@ const client = new Rewrite(process.env.REWRITE_API_KEY);
 
 const { data, error } = await client.messages.send({
     to: '+5511999999999',
-    content: 'You verification code is 123456',
+    content: 'Your order 21093 is on its way',
 });
 ```
 
@@ -32,7 +32,7 @@ const { data, error } = await client.messages.send({
 
 **Rewrite** was born open source because we believe that critical infrastructure **should not be a black box.**
 
-Contribute, discuss ideas, and help build the future of simple, affordable SMS messaging.
+Contribute, discuss ideas and help build the future of simple and accessible SMS on our [discord](https://rewritetoday.com/discord).
 
 Made with 🤍 by the Rewrite team. <br/>
 SMS the way it should be.
